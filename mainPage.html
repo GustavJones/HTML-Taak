@@ -10,13 +10,26 @@
         background-size: 100%, 100%;
       }
 
-      h1 {
+      h1.titel {
         text-align: center;
         border: 8px solid #548687;
         border-radius: 20px;
         margin: auto;
         font-size: 50;
-        color:#031d44;
+        color: #031d44;
+      }
+
+      button {
+        font-size: 30;
+        size: 50%;
+        background-color: #548687;
+        color: #c5e99b;
+      }
+
+      div.links {
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
       }
     </style>
   </head>
@@ -25,7 +38,7 @@
     <div>
       <hr color="#6DA34D" size="10" />
 
-      <h1>
+      <h1 class="titel">
         <u>
           Hoe verbeter die 4de Industrieele Evolusie die verwydering van gemors
         </u>
@@ -34,16 +47,28 @@
       <hr color="#6DA34D" size="10" />
     </div>
 
-    <p>
-      <a href="wat.html" style="font-size: 30"> Wat Is Dit? </a>
-    </p>
+    <div class="links">
+      <a href="wat.html">
+        <button>Wat Is Dit?</button>
+      </a>
 
-    <p>
-      <a href="hoe.html" style="font-size: 30">Hoe werk dit? </a>
-    </p> 
+      <a href="hoe.html">
+        <button>Hoe werk dit?</button>
+      </a>
 
-    <p>
-      <a href="impak.html" style="font-size: 30">Impak op Suid-Afrikaners.</a>
-    </p>
+      <a href="impak.html">
+        <button>Impak op Suid-Afrikaners</button>
+      </a>
+    </div>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/yXWw0_UfSFg"
+      title="YouTube"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </body>
 </html>
