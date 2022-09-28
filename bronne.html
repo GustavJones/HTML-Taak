@@ -22,10 +22,45 @@
         margin: auto;
       }
 
+      h1.sub_titel {
+        text-align: center;
+        font-size: 200%;
+        color: #c5e99b;
+        border: 6px solid #6da34d;
+        background-color: #548687;
+        border-radius: 20px;
+        margin-top: 2%;
+        margin-left: 12%;
+        margin-right: 12%;
+      }
+
+      a {
+        font-size: 250%;
+        color: #0d3b66;
+      }
+
       iframe {
         margin: 2%;
         height: 300px;
         width: 500px;
+      }
+
+      button {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 150%;
+        padding: 10px;
+        background-color: #0d3b66;
+        border-radius: 10px;
+        color: #c5e99b;
+      }
+
+      button:hover {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 150%;
+        padding: 10px;
+        background-color: #5180ab;
+        border-radius: 10px;
+        color: #c5e99b;
       }
     </style>
   </head>
@@ -39,9 +74,20 @@
 
     <hr color="#6DA34D" size="10" />
 
-    <div class="video_player" align="center">
+    <div align="center">
+      <a href="mainPage.html">
+        <button>Tuisblad</button>
+      </a>
+    </div>
+
+    <div align="center">
+      <h1 class="sub_titel">
+        Vir meer inligting oor die 4de Industrieele Revolusie, gaan kyk die
+        video hieronder
+      </h1>
+
       <iframe
-        src="https://www.youtube.com/embed/8yACnJYhSBY"
+        src="https://www.youtube.com/embed/uvP4DnH1URg"
         title="YouTube"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -50,12 +96,32 @@
       </iframe>
     </div>
 
-    <p align="center">
-      <a
-        href="https://gmisummit.com/knowledge-hub/2021/harnessing-the-fourth-industrial-revolution-for-waste-management"
-      >
-        GMIS
-      </a>
-    </p>
+    <div>
+      <h1 class="sub_titel">Bronne:</h1>
+
+      <p align="center">
+        •
+        <a
+          href="https://gmisummit.com/knowledge-hub/2021/harnessing-the-fourth-industrial-revolution-for-waste-management"
+        >
+          gmisummit.com
+        </a>
+        <br />
+
+        •
+        <a
+          href="https://www.engineeringnews.co.za/article/4ir-and-its-positive-impact-on-waste-sector-2020-11-24"
+        >
+          www.engineeringnews.co.za
+        </a>
+        <br />
+
+        •
+        <a href="https://www.csir.co.za/integrated-waste-management">
+          www.csir.co.za
+        </a>
+        <br />
+      </p>
+    </div>
   </body>
 </html>
