@@ -10,3 +10,5 @@ https://gmisummit.com/knowledge-hub/2021/harnessing-the-fourth-industrial-revolu
 https://www.engineeringnews.co.za/article/4ir-and-its-positive-impact-on-waste-sector-2020-11-24
 
 https://youtu.be/8yACnJYhSBY
+
+https://www.csir.co.za/integrated-waste-management
