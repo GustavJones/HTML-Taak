@@ -1,9 +1,11 @@
 # HTML-Taak
 
+Om die taak te view, maak die "mainPage.html" file oop in 'n web browser
+
 Taak
 
 Bronne:
-https://coolors.co/6da34d-0d3b66-548687-8fbc94-c5e99b
+https://coolors.co/6da34d-0d3b66-548687-8fbc94-c5e99b (Net vir kleure)
 
 https://gmisummit.com/knowledge-hub/2021/harnessing-the-fourth-industrial-revolution-for-waste-management
 
